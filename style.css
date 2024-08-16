@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+   
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height:50px;
+    padding:0;
+    margin:0;
+    
+}
+
+.titulo{
+background: linear-gradient(#131d29,#0e4962,#0984a9,#03c9f9);
+  color:white;  
+width: auto;
+ text-align: center;
+ margin-top:30px;
+ font-family:fantasy;
+ font-size: 1.5rem;
+
+
+}
+
+.logo{
+
+    height:80px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    
+    
+    
+    
+}
+
+::placeholder{
+     color:black;
+     text-align: center;
+     
+     
+}
+
+.text-area{
+    border:#03c9f9 8px inset;
+    flex-direction: column;
+    
+}
+
+.mensaje{
+    border:#03c9f9 8px inset;
+    flex-direction: column;
+    
+    
+}
+
+
+.Información{
+    font-size:15px;
+    flex-direction: column;
+    
+}
+
+.boton-copiar{
+    background: linear-gradient(#131d29,#0e4962,#0984a9,#03c9f9);
+    
+    border-radius:50%;
+    height:64px;
+    width:250px;
+    font-size:24px;
+    border-width:5px;
+    margin-top:50px;
+    margin-left:70px;
+}
+
+
+
+
+.boton-encriptar{
+    
+    background: linear-gradient(#131d29,#0e4962,#0984a9,#03c9f9);
+    border-radius:50%;
+    height:64px;
+    width:250px;
+    font-size:24px;
+    border-width:5px;
+    
+}
+
+
+.boton-desencriptar{
+    background: linear-gradient(#131d29,#0e4962,#0984a9,#03c9f9);
+    border-radius:50%;
+    height:64px;
+    width:250px;
+    font-size:24px;
+    border-width:5px;
+}
+
+
+.footer{
+    background: linear-gradient(#131d29,#0e4962,#0984a9,#03c9f9);  
+    height:auto;
+    margin-top:60px;
+    font-family: fantasy ;
+    font-size:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+@media(max-width:1200px){
+    main {
+        flex-direction: column;
+    }
+    .text-area{
+        flex-direction: column;
+        
+    }
+    
+
+}
